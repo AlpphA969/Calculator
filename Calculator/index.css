@@ -1,0 +1,138 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.frame{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,110px);
+    gap: 10px;
+    margin-left: 400px;
+    background:linear-gradient(#FF5F6D , #FFC371) ;
+    margin-top: 50px;
+    position:relative;
+    width: 470px;
+    border-radius: 20px;
+}
+.btn{
+    height: 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 40px;
+  background: linear-gradient(#00d2ff , #928DAB);  
+  cursor: pointer;
+  transition: all;
+  transition-duration: 500ms;
+}
+#text{
+    margin-left: 353px;
+    font-size: 60px;
+    height:50px;
+    width: 520px;
+    padding: 10px;
+    border: 3px solid;
+    margin-top: 100px;
+}
+#plus{
+    background-image: url('icons8-plus-100.png');
+    border: none;
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-size: 55%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: all;
+    transition-duration:  500ms;
+
+}
+.btn:hover{
+    transform: scale(1.2,1.2);
+    background: linear-gradient(#56ab2f , #a8e063);
+    color: white    ;
+    
+
+}
+#plus:hover{
+    transform:scale(1.2,1.2) ;
+}
+#multiply{
+    background-image: url('icons8-multiply-100\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 500ms;
+
+}
+#minus{
+    background-image: url('icons8-minus-100.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    transition: all;
+    transition-duration: 500ms;
+}
+#divide{
+    background-image: url('icons8-divide-100.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 23px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 500ms;
+}
+.equal{
+    border-radius: 10px;
+    border: none;
+    background-image: url('icons8-equal-sign-100.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 23px;
+    transition: all;
+    transition-duration: 1.5s;
+}
+.equal:hover{
+    transform: rotate(180deg);
+    border: 2px solid black;
+    box-shadow: 0px  0px 50px;
+    color: rgb(0, 0, 0)
+}
+#multiply:hover{
+    transform: scale(1.2,1.2);
+
+}
+#divide:hover{
+    transform: scale(1.2,1.2);
+}
+#minus:hover{
+    transform: scale(1.2,1.2);
+}
+#c{
+    height: 60px;
+    font-size: 40px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    transition-duration: 500ms;
+    width: 400px;
+    margin-left: 35px;
+
+
+}
+#c:hover{
+    transform: scale(1.2,1.2);
+    color: rgb(255, 0, 0);
+    background-color:rgb(8, 0, 59);
+    font-size: 50px;
+    opacity: 0.8;
+}
